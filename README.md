@@ -8,7 +8,7 @@
 ~~~ 
 
 module "oct-eks" {
-  source         = "github.com/ooghenekaro/module-test"
+  source         = "github.com/kennynuga/oct-eks.git"
   region         = "eu-west-2"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
